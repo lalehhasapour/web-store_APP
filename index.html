@@ -25,35 +25,47 @@
             padding: 20px;
             text-align: center;
             width: 90%;
-            max-width: 800px;
+            max-width: 900px;
         }
         .logo {
-            width: 150px;
+            width: 250px;
             margin-bottom: 20px;
         }
         .title {
-            font-size: 2em;
+            font-size: 2.5em;
             color: #333;
             margin-bottom: 10px;
         }
         .tagline {
-            font-size: 1.2em;
-            color: #555;
+            font-size: 1.5em;
+            color: #ff9900;
+            font-weight: bold;
             margin-bottom: 30px;
         }
         .section-logos {
             display: flex;
-            justify-content: space-around;
-            margin-bottom: 20px;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 40px;
         }
-        .section-logos img {
-            width: 80px;
-            height: 80px;
+        .section {
+            text-align: center;
+        }
+        .section img {
+            width: 120px;
+            height: 120px;
+        }
+        .section p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #333;
         }
         .footer {
             margin-top: 30px;
-            font-size: 0.9em;
-            color: #777;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #555;
         }
     </style>
 </head>
@@ -66,13 +78,22 @@
     <div class="tagline">تحلیل و معامله‌گری با سرعت و دقتی فراتر از انسان</div>
 
     <div class="section-logos">
-        <img src="https://raw.githubusercontent.com/lalehhasapour/logo-images_APP/refs/heads/main/1727142154119.png" alt="ربات ارزهای دیجیتال">
-        <img src="https://raw.githubusercontent.com/lalehhasapour/logo-images_APP/refs/heads/main/1727142197448.png" alt="ربات فارکس">
-        <img src="https://raw.githubusercontent.com/lalehhasapour/logo-images_APP/refs/heads/main/1727142321304.png" alt="ربات باینری آپشن">
+        <div class="section">
+            <img src="https://raw.githubusercontent.com/lalehhasapour/logo-images_APP/refs/heads/main/1727142154119.png" alt="ربات ارزهای دیجیتال">
+            <p>ربات ارزهای دیجیتال</p>
+        </div>
+        <div class="section">
+            <img src="https://raw.githubusercontent.com/lalehhasapour/logo-images_APP/refs/heads/main/1727142197448.png" alt="ربات فارکس">
+            <p>ربات فارکس</p>
+        </div>
+        <div class="section">
+            <img src="https://raw.githubusercontent.com/lalehhasapour/logo-images_APP/refs/heads/main/1727142321304.png" alt="ربات باینری آپشن">
+            <p>ربات باینری آپشن</p>
+        </div>
     </div>
 
     <div class="footer">اولین پلتفرم رسمی ارائه ربات‌های معامله‌گر خودکار ارزهای دیجیتال، فارکس و باینری آپشن در کشور</div>
 </div>
 
 </body>
-  </html>
+</html>
